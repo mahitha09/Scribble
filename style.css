@@ -4,7 +4,7 @@
     --card-color: #ECFAF5;
     --button-color: #b5f759;
     --text-color: #a7adad;
-    --icon-color: #888b8b;
+    --icon-color: #656d6d;
     --card-shadow: 0px 0px 25px -4px rgba(0,0,0,0);
     --btn-hover-color: #b3fc4d;
     --white-color: #fff;
@@ -84,9 +84,7 @@ button{
 }
 
 .notes{
-    height: 300px;
-    width: 300px;
-    background-color: var(--card-color);
+    width: 250px;
     margin: 2rem;
 }
 
@@ -108,6 +106,10 @@ button{
     height: 300px;
     width: 100%;
     overflow: hidden;
+    background-color: var(--card-color);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 3px rgb(0,0,0,0.1);
 }
 
 .notes textarea{
@@ -117,4 +119,8 @@ button{
     outline: none;
     font-size: 1.2rem;
     resize: none;
+}
+
+.done{
+    display: none;
 }
