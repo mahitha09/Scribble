@@ -5,7 +5,7 @@ const container = document.querySelector('.container');
 
 //Eventlisteners
 btn.addEventListener('click',() => {
-    console.log("Hii");
+    addNewNote();
 });
 
 //functions
