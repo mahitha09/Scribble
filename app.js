@@ -4,9 +4,8 @@ const textArea = document.querySelector('.textArea');
 const container = document.querySelector('.container');
 
 //Eventlisteners
-btn.addEventListener('click',(e) => {
-    e.preventDefault();
-    addNewNote();
+btn.addEventListener('click',() => {
+    console.log("Hii");
 });
 
 //functions
